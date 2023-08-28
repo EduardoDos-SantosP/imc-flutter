@@ -61,6 +61,7 @@ class _HomeState extends State<MyHomePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
+                Image.asset('assets/balanca.png', height: 100),
                 TextField(
                   controller: pesoController,
                   keyboardType: TextInputType.number,
